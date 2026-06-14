@@ -1,9 +1,11 @@
 import React from 'react'
+import WeatherComponent from './components/weatherDisplay/WeatherComponent'
+import './App.css'
 
 function App() {
   return (
     <>
-     <h1>ready</h1>
+    <WeatherComponent/>
     </>
   )
 }
